@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <script defer src="script.js"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Calculator app</title>
+  </head>
+  <body>
+    <section id="main-container">
+      <section id="them__section-container">
+        <div class="calc">calc</div>
+        <div class="theme-box">
+          <p class="theme-word">THEME</p>
+          <div class="theme__changing-box">
+            <div class="theme-numbers">123</div>
+            <div class="theme__changing--btns-box">
+              <div class="theme__changing-btns left" data-theme="1">
+                <div class="theme-changer"></div>
+              </div>
+              <div class="theme__changing-btns middle" data-theme="2"></div>
+              <div class="theme__changing-btns right" data-theme="3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="calculated__value-box">
+        <p class="calculated-value"></p>
+      </section>
+      <section id="numbers-box">
+        <div class="number__operations-box">
+          <div class="number-style number">7</div>
+          <div class="number-style number">8</div>
+          <div class="number-style number">9</div>
+          <div class="delete">DEL</div>
+          <div class="number-style number">4</div>
+          <div class="number-style number">5</div>
+          <div class="number-style number">6</div>
+          <div class="number-style addition">+</div>
+          <div class="number-style number">1</div>
+          <div class="number-style number">2</div>
+          <div class="number-style number">3</div>
+          <div class="number-style minus">-</div>
+          <div class="number-style number">.</div>
+          <div class="number-style number">0</div>
+          <div class="number-style division">/</div>
+          <div class="multiplay">x</div>
+          <div class="reset align">RESET</div>
+          <div class="equal-sign align">=</div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
